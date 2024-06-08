@@ -7,15 +7,90 @@ body {
 
 div {
     display: flex;
+    flex-direction: column;
     flex: 1;
     font-family: "Roboto", Times, serif;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+    padding-top: 10px;
 }
 
 #top {
     background-color: #1F2937;
+    color:white;
+}
+
+#head {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 100px 0px;
+}
+
+#head-links {
+    flex: 1;
+    flex-direction: row;
+    justify-content: right;
+    padding: 0px;
+}
+
+#head-links a {
+    padding: 0px 25px;
+    color:white;
+    font-size: 18px;
+}
+
+#head h2 {
+    margin: 0;
+}
+#title {
+    flex: 1;
+    display: flexbox;
+    flex-direction: row;
+    padding: 0px;
+
+}
+
+#title-words {
+    flex: 1;
+    flex-direction: column;
+    padding: 0px;
+
+}
+#title-words h1 {
+    font-size: 48px;
+    font-weight: bold;
+    flex: 1;
+    margin: 0px;
+    
+}
+
+#title-words p {
+    font-size: 18px;
+    flex: 1;
+    margin: 0px;
+}
+
+#button-container {
+    flex: 1;
+    padding: 0px;
+}
+
+#title-words button {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color:white;
+    justify-content: left;
+    border-radius: 12px;
+    padding: 10px 0px;
+    width: 150px;
+}
+
+#img-placeholder {
+    flex: 1;
+    margin-left: 50px;
 }
 
 #middle-two {

@@ -1,0 +1,23 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    flex: 1;
+    font-family: "Roboto", Times, serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+#top {
+    background-color: #1F2937;
+}
+
+#middle-two {
+    background-color: #E5E7EB;
+}

@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-}
+    align-items: center;
 
 div {
     display: flex;
@@ -14,6 +14,8 @@ div {
     padding-right: 300px;
     padding-bottom: 100px;
     padding-top: 10px;
+}
+    
 }
 
 #top {
@@ -93,6 +95,32 @@ div {
     margin-left: 50px;
 }
 
+#middle-one {
+    align-items: center;
+}
+
+#middle-one h2 {
+
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+#middle-one #info-bar {
+    display: flexbox;
+    flex-direction: row;
+    padding: 0px;
+    flex: 1;
+}
+
+.info-item {
+    padding: 0px;
+    width:250px ;
+    height:250px;
+    margin: 0px 25px;
+}
+
 #middle-two {
     background-color: #E5E7EB;
 }
+

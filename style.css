@@ -3,8 +3,14 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    align-items: center;
+    margin: 0px;
+h2 {
+    margin: 0px;
+}
 
+p {
+    margin: 0px;
+}
 div {
     display: flex;
     flex-direction: column;
@@ -79,7 +85,7 @@ div {
     padding: 0px;
 }
 
-#title-words button {
+button {
     font-size: 24px;
     font-weight: bold;
     background-color: #3882F6;
@@ -88,6 +94,7 @@ div {
     border-radius: 12px;
     padding: 10px 0px;
     width: 150px;
+    height: 50px;
 }
 
 #img-placeholder {
@@ -97,6 +104,7 @@ div {
 
 #middle-one {
     align-items: center;
+    flex: 1;
 }
 
 #middle-one h2 {
@@ -122,5 +130,48 @@ div {
 
 #middle-two {
     background-color: #E5E7EB;
+    padding: 100px 300px
 }
 
+#middle-two #quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+#middle-two #author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+}
+
+#bottom {
+    padding-bottom: 0px;
+}
+
+#bottom-banner {
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 300px;
+    margin: 100px;
+}
+
+#banner-text {
+    padding: 0px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    
+}
+#bottom-banner button {
+    border-color: white;
+}
+#footer {
+    background-color:  #1F2937;;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px;
+}
